@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <HEAD><TITLE>BLACK</TITLE>
+    <head><title>BLACK</title>
         <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
-    </HEAD>
-    <BODY>
-   <header>
-     <!--this is the top of the page-->
-     <a name="TopOfThePage"> </a>
-     <h1>WELCOME</h1>
-     <!--this is the navigation bar-->
+    </head>
+    
+    <body>
+     <!--this is my header, starts here-->
+    <header>
+     <!--this is the navigation bar, starts here-->
      <navbar>
-         <button><h4><a href="/index.html">HOME</a></h4></button>
-         <button ><a href="/about.html"><h4>ABOUT</h4></a></button>
-         <button><a href="/work.html"><h4>WORK</h4></a></button>
-         <button><a href="/resume.html"><h4>RESUME</h4></a></button>
-         <button><a href="/contact.html"><h4>CONTACT</h4></a></button>
+        <div>
+     <!--this is the top of the page, starts here-->
+        <a name="TopOfThePage"> </a>
+        <h1>WELCOME</h1>
+     <!--this is the top of the page, ends here-->
+
+        </div>
+        <div>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>WORK</li>
+                <li>RESUME</li>
+                <li>CONTACT</li>
+            </ul>      
+        </div> 
      </navbar><BR/>
-     <br/>
-   </header>
-    <!--this form for more details-->
-   <section>
-    <form>
+     <!--this is the navigation bar, ends here-->
+     <!--this is my header, ends here-->
+     </header>
+     
+     <!--this is my main, starts here-->
+     <main>
+       
+      <section>
+     <form>
         <label>HOME:</label><br/>
         <input type="text" name="HOME" /><br/>
         <br/>
@@ -35,46 +49,71 @@
         <br/>
         <label>CONTACT:</label><br/>
         <input type="text" name="CONTACT" /><br/>
-        </form>
-   </section> 
-        
-        <!--this is an image-->
-         <image src="Assets/images/images.jpeg" width="300px" height="300px"></image><br/>
-         
-         <!--this is a vieo-->
-         <video controls src="Assets/video/BLACK.mp4" width="300px" height="300px" allowfullscreen ></video><br/>
-    
-         <!--this is a voice recording-->
-         <audio controls src="Assets/audio/Recording (2).m4a" alt="my voice"></audio><br/>
-    <!--this is a little introduction-->
-    <a name="About"></a>
-    <h4>BLACK</h4>
-    <p>The color <b>black</b> is often associated with a complex range of emotions,<br/>
-        including power, mystery, elegance, sophistication, mourning, fear, evil,<br/>
-        rebellion, and sometimes even a sense of depth and secrecy; essentially, it <br/>
-        can evoke both positive feelings of authority and negative feelings of darkness<br/>
-        and negativity, depending on the context. <br/>
-        
-        <H4>Key points about the emotions behind black:</H4><br/>
-        <b>Positive associations:</b><br/>
-        Power, authority, sophistication, elegance, mystery, formality, self-control. <br/>
-        <b>Negative associations:</b><br/>
-        Death, mourning, evil, darkness, fear, depression, negativity, emptiness. <br/>
-        <b>Cultural context:</b><br/>
-        In many western cultures, black is strongly linked with mourning attire and<br/>
-        is often used to symbolize grief. <br/>
-        <b>Fashion and style:</b><br/>
-        Wearing black can also signify a sense of rebellion or a desire to stand out from the crowd. </p>
-    
-    
-    <!--click to go to top-->
-    <a href="#TopOfThePage">///TOP\\\</a>
+      </form>
+      </section> 
 
-     <!--THIS is MY FOOTER, starts here-->
+       <section>
+
+        <div>
+             <!--this is an image-->
+             <image src="Assets/images/images.jpeg" width="300px" height="300px"></image><br/>
+            <div>
+                <!--this is a vieo-->
+                <video controls src="Assets/video/BLACK.mp4" width="300px" height="300px" allowfullscreen ></video><br/>
+                <div>
+                    <!--this is a voice recording-->
+                    <audio controls src="Assets/audio/Recording (2).m4a" alt="my voice"></audio><br/>
+                </div>
+            </div>
+        
+        </div>
+       </section> 
+    <!--this is my introduction, starts here -->
+    <section>
+        <div>
+            <a name="About"></a>
+            <h4>BLACK</h4>
+            <p>The color <b>black</b> is often associated with a complex range of emotions,<br/>
+                including power, mystery, elegance, sophistication, mourning, fear, evil,<br/>
+                rebellion, and sometimes even a sense of depth and secrecy; essentially, it <br/>
+                can evoke both positive feelings of authority and negative feelings of darkness<br/>
+                and negativity, depending on the context. <br/>
+                
+                <H4>Key points about the emotions behind black:</H4><br/>
+                <b>Positive associations:</b><br/>
+                Power, authority, sophistication, elegance, mystery, formality, self-control. <br/>
+                <b>Negative associations:</b><br/>
+                Death, mourning, evil, darkness, fear, depression, negativity, emptiness. <br/>
+                <b>Cultural context:</b><br/>
+                In many western cultures, black is strongly linked with mourning attire and<br/>
+                is often used to symbolize grief. <br/>
+                <b>Fashion and style:</b><br/>
+                Wearing black can also signify a sense of rebellion or a desire to stand out from the crowd. </p>
+        </div>
+    </section>
+    
+    <!--this is my introduction, ends here -->
+    
+    <!--click to go to top, starts here-->
+    <section>
+        <div>
+            <a href="#TopOfThePage">///TOP\\\</a>
+        </div>
+    </section>
+     <!--click to go to top, ends here-->
+     </main>
+
+     <!--This is my footer, starts here-->
     <footer>
    
-    Thank you fro visiting <b>BLACK</b> for more information, kindly visit this page <a href="https://gomycode.com/ng/abuja-hackerspace/" target="_blank">GoMyCode</a>
+        <hr>
+        <p>
+         &copy; 2025 CHOP_CHOP_RESTAURANT  for more information, kindly visit this page <a href="https://gomycode.com/ng/abuja-hackerspace/" target="_blank">GoMyCode</a>
+        </p>   
+        <p>
+           
+        </p>
     </footer>
-     <!--THIS is MY FOOTER, starts here-->
+     <!--This is my footer, ends here-->
 </body>
 </html>
